@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>TOGAF</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
@@ -25,8 +25,50 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h1>TOGAF</h1>
+					<h3>The Open Group Architecture Framework</h3>
+				</section>
+				<section>
+					<h2>The Open Group</h2>
+					<p>TOGAF</p>
+					<p class="fragment" title="Single UNIX Specification">UNIX</p>
+					<p class="fragment">XA Specification (Two-phase commit protocol)</p>
+				</section>
+
+				<section>
+					<h2>Certification</h2>
+					<a href="https://togaf9-cert.opengroup.org/home-public">
+						<img src="https://www.opengroup.org/togaf9/cert/docs/paths.png"/>
+					</a>
+				</section>
+
+				<section>
+					<h2>TOGAF 9 Part 1 Exam</h2>
+					<ul>
+						<li>Understanding basic concepts and terminology</li>
+						<li>Multiple choice question</li>
+						<li>40 questions, pass mark 55%</li>
+						<li><b>1</b> point for correct answer</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>TOGAF 9 Part 2 Exam</h2>
+					<ul>
+						<li>Application of TOGAF</li>
+						<li>Single choice questions</li>
+						<li>8 questions, pass mark 60%</li>
+						<li>You can get
+							<ul>
+								<li><b>5 points</b> for best answer</li>
+								<li><b>3 points</b> for second best answer</li>
+								<li><b>1 points</b> for third best answer</li>
+								<li><b>0 points</b> for distracter</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
 			</div>
 		</div>
 
@@ -38,6 +80,8 @@
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				hash: true,
+				slideNumber: false,
+				showNotes: false,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
